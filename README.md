@@ -1,0 +1,2 @@
+# MyStore
+To distribute apps

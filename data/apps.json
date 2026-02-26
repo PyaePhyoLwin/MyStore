@@ -1,0 +1,93 @@
+[
+  {
+    "id": "taskflow",
+    "name": "TaskFlow Planner",
+    "tagline": "Plan your day with less noise",
+    "description": "TaskFlow Planner helps individuals and teams manage recurring tasks, deadlines, and routines across web, mobile, and desktop.",
+    "category": "Productivity",
+    "pricing": "free",
+    "platforms": {
+      "webUrl": "https://apps.example.com/taskflow",
+      "androidApkUrl": "downloads/taskflow/taskflow-2.4.1.apk",
+      "iosUrl": "https://apps.apple.com/app/id0000000001",
+      "windowsUrl": "downloads/taskflow/taskflow-2.4.1-setup.exe",
+      "macUrl": "downloads/taskflow/taskflow-2.4.1.dmg"
+    },
+    "version": "2.4.1",
+    "releaseDate": "2026-01-10",
+    "changelog": [
+      "Added weekly focus dashboard",
+      "Improved sync stability for offline edits",
+      "Fixed duplicate reminder notifications"
+    ],
+    "sha256": {
+      "androidApkUrl": "9f4cb4a46fa80c0a1f3f17a89d48953650fbca8f6259e8bbbcdf039f63f2a1ef",
+      "windowsUrl": "7be2f50a7b28713a91f4e813f6c3f59fc6ba3f80ff2c55fdab5522f6f5ce8a36",
+      "macUrl": "d44239e6ce41016f76ecce7d6d410ac2152a6d03b8027d9f8dbeb4d4c22db0fb"
+    },
+    "screenshots": [
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=TaskFlow+Planner+1",
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=TaskFlow+Planner+2",
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=TaskFlow+Planner+3"
+    ]
+  },
+  {
+    "id": "retaildesk",
+    "name": "RetailDesk POS",
+    "tagline": "Fast billing for local stores",
+    "description": "RetailDesk POS is an offline-first point-of-sale app for barcode billing, stock monitoring, and receipt printing.",
+    "category": "POS",
+    "pricing": "paid",
+    "platforms": {
+      "webUrl": "",
+      "androidApkUrl": "downloads/retaildesk/retaildesk-1.8.0.apk",
+      "iosUrl": "",
+      "windowsUrl": "downloads/retaildesk/retaildesk-1.8.0-setup.exe",
+      "macUrl": ""
+    },
+    "version": "1.8.0",
+    "releaseDate": "2025-12-22",
+    "changelog": [
+      "GST invoice customization",
+      "Printer auto-reconnect logic",
+      "Inventory import validation improvements"
+    ],
+    "sha256": {
+      "androidApkUrl": "0ad71b312de7239410af6dff6dfec2c6a9586f16bc5c2fd0730f166f8a6a671e",
+      "windowsUrl": "53bd96fcd0f2ad89cab916e5b2826222089b4d2d6c7f0427ca8cf2c377a8ce66"
+    },
+    "screenshots": [
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=RetailDesk+POS+1",
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=RetailDesk+POS+2"
+    ]
+  },
+  {
+    "id": "quizforge",
+    "name": "QuizForge",
+    "tagline": "Create engaging quizzes in minutes",
+    "description": "QuizForge lets educators and creators build, publish, and track quiz sessions across classroom and remote environments.",
+    "category": "Quiz",
+    "pricing": "free",
+    "platforms": {
+      "webUrl": "https://apps.example.com/quizforge",
+      "androidApkUrl": "",
+      "iosUrl": "https://apps.apple.com/app/id0000000002",
+      "windowsUrl": "",
+      "macUrl": "downloads/quizforge/quizforge-3.2.0.dmg"
+    },
+    "version": "3.2.0",
+    "releaseDate": "2026-01-17",
+    "changelog": [
+      "Live leaderboard mode",
+      "Added CSV question bank import",
+      "Accessibility improvements for screen readers"
+    ],
+    "sha256": {
+      "macUrl": "2f53a505ac8d3f26e96e9c8815ff3350f43f45ccfba4a2ce9dcaeb1026f307f7"
+    },
+    "screenshots": [
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=QuizForge+1",
+      "https://via.placeholder.com/900x500/101a36/eef2ff?text=QuizForge+2"
+    ]
+  }
+]

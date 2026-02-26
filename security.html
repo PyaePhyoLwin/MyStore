@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Security & Verification | Developer App Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="section">
+    <div class="container prose">
+      <h1>Security & Download Verification</h1>
+      <p>Every release includes SHA256 values to help verify file integrity.</p>
+
+      <h2>How to verify checksums</h2>
+      <ol>
+        <li>Download an app file from this website.</li>
+        <li>Copy the SHA256 value shown on the app detail page.</li>
+        <li>Run one of these commands and compare output exactly:</li>
+      </ol>
+      <pre><code># macOS / Linux
+shasum -a 256 file-name.ext
+
+# Windows PowerShell
+Get-FileHash .\file-name.ext -Algorithm SHA256</code></pre>
+
+      <h2>Code signing</h2>
+      <p>Official installers are signed where platform signing is supported (Android, macOS, Windows). Always check publisher identity before installing.</p>
+
+      <h2>Update policy</h2>
+      <p>Critical fixes are prioritized and announced in release notes. Older versions stay available for rollback until end-of-support.</p>
+
+      <p><a href="index.html">Return home</a></p>
+    </div>
+  </main>
+</body>
+</html>

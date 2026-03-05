@@ -1,0 +1,101 @@
+{
+  "taskflow": {
+    "androidApkUrl": {
+      "latest": {
+        "fileName": "taskflow-2.4.1.apk",
+        "url": "downloads/taskflow/taskflow-2.4.1.apk",
+        "size": "31 MB",
+        "sha256": "9f4cb4a46fa80c0a1f3f17a89d48953650fbca8f6259e8bbbcdf039f63f2a1ef",
+        "releaseDate": "2026-01-10",
+        "notes": "Crash fixes and offline sync patch"
+      },
+      "older": [
+        {
+          "fileName": "taskflow-2.3.0.apk",
+          "url": "downloads/taskflow/taskflow-2.3.0.apk",
+          "size": "29 MB",
+          "sha256": "0f0cc88a2d94690f208abcdbfc1a944d3eaefb70ecb74f43efcb5fa2d17f4210",
+          "releaseDate": "2025-11-19",
+          "notes": "Introduced recurring checklist view"
+        }
+      ]
+    },
+    "windowsUrl": {
+      "latest": {
+        "fileName": "taskflow-2.4.1-setup.exe",
+        "url": "downloads/taskflow/taskflow-2.4.1-setup.exe",
+        "size": "54 MB",
+        "sha256": "7be2f50a7b28713a91f4e813f6c3f59fc6ba3f80ff2c55fdab5522f6f5ce8a36",
+        "releaseDate": "2026-01-10",
+        "notes": "Installer improvements and login token fix"
+      },
+      "older": []
+    },
+    "macUrl": {
+      "latest": {
+        "fileName": "taskflow-2.4.1.dmg",
+        "url": "downloads/taskflow/taskflow-2.4.1.dmg",
+        "size": "49 MB",
+        "sha256": "d44239e6ce41016f76ecce7d6d410ac2152a6d03b8027d9f8dbeb4d4c22db0fb",
+        "releaseDate": "2026-01-10",
+        "notes": "Signed notarized build"
+      },
+      "older": []
+    }
+  },
+  "retaildesk": {
+    "androidApkUrl": {
+      "latest": {
+        "fileName": "retaildesk-1.8.0.apk",
+        "url": "downloads/retaildesk/retaildesk-1.8.0.apk",
+        "size": "42 MB",
+        "sha256": "0ad71b312de7239410af6dff6dfec2c6a9586f16bc5c2fd0730f166f8a6a671e",
+        "releaseDate": "2025-12-22",
+        "notes": "Tax report and receipt engine updates"
+      },
+      "older": [
+        {
+          "fileName": "retaildesk-1.7.2.apk",
+          "url": "downloads/retaildesk/retaildesk-1.7.2.apk",
+          "size": "40 MB",
+          "sha256": "15df3f4fc3b9b95a7a9efb2872280bd915f4e4fc1bdfe5530f4f7ec4c4131d1f",
+          "releaseDate": "2025-10-02",
+          "notes": "Inventory sync patch"
+        }
+      ]
+    },
+    "windowsUrl": {
+      "latest": {
+        "fileName": "retaildesk-1.8.0-setup.exe",
+        "url": "downloads/retaildesk/retaildesk-1.8.0-setup.exe",
+        "size": "73 MB",
+        "sha256": "53bd96fcd0f2ad89cab916e5b2826222089b4d2d6c7f0427ca8cf2c377a8ce66",
+        "releaseDate": "2025-12-22",
+        "notes": "Windows service resilience update"
+      },
+      "older": []
+    }
+  },
+  "quizforge": {
+    "macUrl": {
+      "latest": {
+        "fileName": "quizforge-3.2.0.dmg",
+        "url": "downloads/quizforge/quizforge-3.2.0.dmg",
+        "size": "38 MB",
+        "sha256": "2f53a505ac8d3f26e96e9c8815ff3350f43f45ccfba4a2ce9dcaeb1026f307f7",
+        "releaseDate": "2026-01-17",
+        "notes": "Accessibility and quiz timer fixes"
+      },
+      "older": [
+        {
+          "fileName": "quizforge-3.1.0.dmg",
+          "url": "downloads/quizforge/quizforge-3.1.0.dmg",
+          "size": "37 MB",
+          "sha256": "75dbf145f2670a68f76153d681545a03d2d3153af7c9b7ef0452e33f42450df8",
+          "releaseDate": "2025-08-09",
+          "notes": "Added team quiz mode"
+        }
+      ]
+    }
+  }
+}

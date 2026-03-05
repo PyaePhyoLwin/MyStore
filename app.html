@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="App details, version history, and secure download links." />
+  <title>App Details | Developer App Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="app">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Developer App Hub</a>
+      <nav aria-label="Secondary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html#apps">Back to Apps</a></li>
+          <li><a href="security.html">Security</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container" id="appDetail" aria-live="polite"></div>
+  </main>
+
+  <div id="releaseNotesModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="releaseNotesTitle">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close release notes">×</button>
+      <h2 id="releaseNotesTitle">Release Notes</h2>
+      <ul id="releaseNotesList"></ul>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
